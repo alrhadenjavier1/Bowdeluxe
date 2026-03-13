@@ -3,9 +3,9 @@ import React, { createContext, useState, useContext, useEffect } from 'react';
 import axios from 'axios';
 import toast from 'react-hot-toast';
 import db from '../services/db.service';
-
+console.log('🔥 REACT_APP_API_URL:', process.env.REACT_APP_API_URL);
 const API_URL = process.env.REACT_APP_API_URL || 'http://localhost:5000/api';
-
+console.log('🔥 Using API_URL:', API_URL);
 const AuthContext = createContext({});
 
 export const useAuth = () => useContext(AuthContext);
