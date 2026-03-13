@@ -18,6 +18,9 @@ const allowedOrigins = [
   'https://bowdeluxe-2mzfb7wgb-this-is-radenzs-projects.vercel.app',
   'https://bowdeluxe-q7kt379j1-this-is-radenzs-projects.vercel.app',
   'https://bowdeluxe-o32a7jth9-this-is-radenzs-projects.vercel.app', // ADD THIS ONE
+  'https://bowdeluxe-git-main-this-is-radenzs-projects.vercel.app/',
+  'https://bowdeluxe.vercel.app/',
+  'https://bowdeluxe-csd0qfnzc-this-is-radenzs-projects.vercel.app/',
   process.env.FRONTEND_URL
 ].filter(Boolean);
 
