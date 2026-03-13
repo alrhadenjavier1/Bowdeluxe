@@ -16,6 +16,8 @@ const allowedOrigins = [
   'http://localhost:3000',
   'https://bowdeluxe-c08knaisx-this-is-radenzs-projects.vercel.app',
   'https://bowdeluxe-2mzfb7wgb-this-is-radenzs-projects.vercel.app',
+  'https://bowdeluxe-q7kt379j1-this-is-radenzs-projects.vercel.app',
+  'https://bowdeluxe-o32a7jth9-this-is-radenzs-projects.vercel.app', // ADD THIS ONE
   process.env.FRONTEND_URL
 ].filter(Boolean);
 
